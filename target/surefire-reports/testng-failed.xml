@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="App.test.Testcart">
+        <methods>
+          <include name="checkcart"/>
+        </methods>
+      </class> <!-- App.test.Testcart -->
+      <class name="App.test.Testemail">
+        <methods>
+          <include name="verified"/>
+        </methods>
+      </class> <!-- App.test.Testemail -->
+      <class name="App.test.Testsize">
+        <methods>
+          <include name="verfiytabs"/>
+        </methods>
+      </class> <!-- App.test.Testsize -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
