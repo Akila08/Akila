@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Sizepage extends baseclass{
 	
-	@FindBy(xpath="//a[@title='Women']")
+	@FindBy123(xpath="//a[@title='Women']")
 	private WebElement Women;
 	
 	@FindBy(xpath="//label[@for='layered_id_attribute_group_1']")
