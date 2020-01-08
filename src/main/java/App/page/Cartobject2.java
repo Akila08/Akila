@@ -13,7 +13,7 @@ public class Cartobject2 extends baseclass {
 	@FindBy(name = "Submit")
 	private WebElement CartAdd;
 
-	@FindBy(xpath = "//strong[@class='dark']")
+	@FindBy(xpath = "//a[@title='Proceed to checkout']")
 	private WebElement verified;
 
 	public Cartobject2() {

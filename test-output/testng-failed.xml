@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="App.page.Dataprovider">
+      <class name="App.test.Testcart">
         <methods>
-          <include name="verifylogin" invocation-numbers="0 1 2"/>
-          <include name="lanch"/>
+          <include name="checkcart"/>
         </methods>
-      </class> <!-- App.page.Dataprovider -->
+      </class> <!-- App.test.Testcart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
